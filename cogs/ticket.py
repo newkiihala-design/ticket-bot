@@ -37,12 +37,6 @@ CATS = {
         "color":  discord.Color.from_rgb(88, 101, 242),
         "desc":   "สำหรับคำถามทั่วไปและข้อสงสัยต่างๆ",
     },
-    "vip": {
-        "label":  "⭐ VIP Support",
-        "emoji":  "⭐",
-        "color":  discord.Color.from_rgb(240, 178, 50),
-        "desc":   "ช่องทางพิเศษสำหรับสมาชิก VIP",
-    },
 }
 
 PRIORITY_MAP = {
