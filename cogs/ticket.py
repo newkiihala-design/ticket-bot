@@ -77,9 +77,6 @@ class CategorySelectView(discord.ui.View):
     async def btn_general(self, itx: discord.Interaction, _):
         await _open_ticket(itx, "general")
 
-    @discord.ui.button(
-        label="⭐ VIP", style=discord.ButtonStyle.secondary,
-        custom_id="ticket:vip", row=0
     )
     async def btn_vip(self, itx: discord.Interaction, _):
         await _open_ticket(itx, "vip", priority="high")
